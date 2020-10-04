@@ -1,31 +1,26 @@
 import React from 'react';
-import InputList from './inputList';
+import InputList from './InputList';
 
 const page = () => {
 	return (
 		<>
 			<div className="header">
-				<h1 className="title">CORTICOSTEROID CONVERTER</h1>
+				<h1 className="title">
+					<span>CORTICOSTEROID CONVERTER</span>
+				</h1>
 				<p className="head">
 					Cette application permet de calculer les doses équivalentes
 					des differentes familles de corticosteroides.
 				</p>
 			</div>
-			<InputList />
-			<div className="footer">
-				<p>
-					By:
-					<i>
-						<a href="https://twitter.com/devtoudert">DevToudert</a>
-					</i>
-					For:
-					<i>
-						<a href="https://pediatre-bouira.com/docteur-guezoui">
-							Dr GUEZOUI
-						</a>
-					</i>
-				</p>
+			<div className="container row">
+				<InputList />
 			</div>
+			<footer className="footer text-center copyright">
+				<small>
+					By @<a href="https://twitter.com/devtoudert">DevToudert</a>
+				</small>
+			</footer>
 		</>
 	);
 };

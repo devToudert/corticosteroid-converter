@@ -1,18 +1,30 @@
 import React from 'react';
 
-const inputItem = () => {
+// class InputItem extends Component {
+const InputItem = (props) => {
+	let handleChange = (e) => {
+		props.onDoseChange(e.target.value);
+	};
+
 	return (
 		<React.Fragment>
 			<div className="col-6 row">
 				<div className="col-8">
-					<label htmlFor="ctc"> corticoide </label>
+					<label htmlFor="ctc"> {props.label} </label>
 				</div>
 				<div className="col-4">
-					<input type="number" name="ctc" id="ctc" />
+					<input
+						onChange={handleChange}
+						value={props.dose}
+						type="number"
+						name="ctc"
+						id="ctc"
+						min="0"
+					/>
 				</div>
 			</div>
 		</React.Fragment>
 	);
 };
 
-export default inputItem;
+export default InputItem;
