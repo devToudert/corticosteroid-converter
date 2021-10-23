@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/corticosteroid-converter/static/css/main.5f81ac75.chunk.css",
+    "main.js": "/corticosteroid-converter/static/js/main.5aa13e0e.chunk.js",
+    "main.js.map": "/corticosteroid-converter/static/js/main.5aa13e0e.chunk.js.map",
+    "runtime-main.js": "/corticosteroid-converter/static/js/runtime-main.019ea9c2.js",
+    "runtime-main.js.map": "/corticosteroid-converter/static/js/runtime-main.019ea9c2.js.map",
+    "static/js/2.418ad80d.chunk.js": "/corticosteroid-converter/static/js/2.418ad80d.chunk.js",
+    "static/js/2.418ad80d.chunk.js.map": "/corticosteroid-converter/static/js/2.418ad80d.chunk.js.map",
+    "index.html": "/corticosteroid-converter/index.html",
+    "precache-manifest.6345e82b387bae2faf7044c5f53fc1d8.js": "/corticosteroid-converter/precache-manifest.6345e82b387bae2faf7044c5f53fc1d8.js",
+    "service-worker.js": "/corticosteroid-converter/service-worker.js",
+    "static/css/main.5f81ac75.chunk.css.map": "/corticosteroid-converter/static/css/main.5f81ac75.chunk.css.map",
+    "static/js/2.418ad80d.chunk.js.LICENSE.txt": "/corticosteroid-converter/static/js/2.418ad80d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.019ea9c2.js",
+    "static/js/2.418ad80d.chunk.js",
+    "static/css/main.5f81ac75.chunk.css",
+    "static/js/main.5aa13e0e.chunk.js"
+  ]
+}
